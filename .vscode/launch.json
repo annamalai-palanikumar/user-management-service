@@ -9,6 +9,16 @@
             "projectName": "user-management-service",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UserServiceApplication<user-management-service-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "in.er.annamalai.userservice.UserServiceApplication",
+            "projectName": "user-management-service-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
